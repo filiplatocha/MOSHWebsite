@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "AssignmentFinalStyle.css">
+	<title>
+	MY ONSLAUGHT STARTS HERE (M.O.S.H) - QUIZ
+	</title>
+	
+	<script type="text/javascript">
+
+	function Quiz()
+	{
+	
+		var count;
+		count = 0;
+		
+		document.getElementById('results').value = "";
+
+		//Question 1
+		if (document.getElementById('MarkLatocha').checked) 
+		{
+			count = count + 1;
+		}
+		else if (document.getElementById('FilipLatocha').checked || document.getElementById('AlecKoz').checked || document.getElementById('ChrisGulik').checked || 
+		document.getElementById('FilipLatocha').checked || document.getElementById('WillRipley').checked)
+		{
+			alert("Question 1 is incorrect")
+		}
+		
+		
+		//Question 2
+		if (document.getElementById('2008').checked)
+		{
+			count = count + 1;
+		}
+		else
+		{
+			alert("Question 2 is incorrect")
+		}
+		
+		
+		//Question 3
+		if (document.getElementById('AlecKoz2').checked && document.getElementById('JimKeneally').checked)
+		{
+			count = count + 1;
+		}
+		else
+		{
+			alert("Question 3 is incorrect")
+		}
+		
+		
+		//Question 4
+		if (document.getElementById('None').checked)
+		{
+			count = count + 1;
+		}
+		else
+		{
+			alert("Question 4 is incorrect")
+		}
+		
+		
+		//Question 5
+		if (document.getElementById('False').checked)
+		{
+			count = count + 1;
+		}
+		else
+		{
+			alert("Question 5 is incorrect")
+		}
+		
+		//Question 6
+		if (document.getElementById('NextBigThing').checked)
+		{
+			count = count + 1;
+		}
+		else
+		{
+			alert("Question 6 is incorrect")
+		}
+		
+		
+		
+		if (count == 6)
+		{
+		document.getElementById('results').value = 
+		document.getElementById('results').value + "You got all answers correct!" + "\n";
+		}
+		else
+		document.getElementById('results').value = 
+		document.getElementById('results').value + "You got " + count + " correct." + "\n";
+
+	}
+	</script>
+
+	<body>
+	
+	<div class = "banner">
+	</div>
+	
+	<div class = "links">
+	<table>
+		<tr>
+			<th><h2><a href = "Home.html"> Home </a></a></h2></th>
+			<th><h2><a href = "Members.html"> Members </a></h2></th>
+			<th><h2><a href = "Media.html"> Media </a></h2></th>
+			<th><h2><a href = "Shows.html"> Tour Dates </a></h2></th>
+			<th><h2><a href = "Merchandise.html"> Merchandise </a></h2></th>
+			<th><h2><a href = "Quiz.html"> Quiz </a></h2></th>
+		</tr>
+	</table>
+	</div>
+	
+	<div class = "quiz">
+	<h2>Quiz</h2>
+	<p>1. Who is the Drummer in M.O.S.H.?</p>
+	 <input type="radio" name="Q1" id="AlecKoz" /> Alec Koz<br />
+	 <input type="radio" name="Q1" id="FilipLatocha" /> Filip Latocha<br />
+	 <input type="radio" name="Q1" id="MarkLatocha" /> Mark Latocha<br />
+	 <input type="radio" name="Q1" id="WillRipley" /> Will Ripley<br />
+	 <input type="radio" name="Q1" id="ChrisGulik" /> Chris Gulik<br />
+
+	<p>2. In what year did M.O.S.H. first form?</p>
+	<input type="radio" name="Q2" id="1992" /> 1992<br />
+	<input type="radio" name="Q2" id="2000" /> 2000<br />
+	<input type="radio" name="Q2" id="2006" /> 2006<br />
+	<input type="radio" name="Q2" id="2008" /> 2008<br />
+	<input type="radio" name="Q2" id="2012" /> 2012<br />
+	
+	<p>3. Check the names of all vocalists in M.O.S.H.</p>
+	<input type="checkbox" name="Q3" id="AlecKoz2" /> Alec Koz<br />
+	<input type="checkbox" name="Q3" id="FilipLatocha2" /> Filip Latocha<br />
+	<input type="checkbox" name="Q3" id="MarkLatocha2" /> Mark Latocha<br />
+	<input type="checkbox" name="Q3" id="WillRipley2" /> Will Ripley<br />
+	<input type="checkbox" name="Q3" id="ChrisGulik2" /> Chris Gulik<br />
+	<input type="checkbox" name="Q3" id="JimKeneally" /> Jim Keneally<br />
+	
+	<p>4. What is the name of M.O.S.H.'s EP?</p>
+	<input type="radio" name="Q4" id="GhostMachine" /> "Ghost Machine"<br />
+	<input type="radio" name="Q4" id="Void" /> "Void"<br />
+	<input type="radio" name="Q4" id="Shatter" /> "Shatter"<br />
+	<input type="radio" name="Q4" id="DiscThroughTheSpine" /> "Disc Through The Spine"<br />
+	<input type="radio" name="Q4" id="None" /> No verified release date/ name<br />
+	
+	<p>5. True or False: Filip Latocha is a vocalist in M.O.S.H.</p>
+	<input type="radio" name="Q5" id="True" /> True<br />
+	<input type="radio" name="Q5" id="False" /> False<br />
+	
+	<p>6. What show has M.O.S.H. played at TWICE?</p>
+	<input type="radio" name="Q6" id="HardCoreBeatdown" /> HardCore Beatdown<br />
+	<input type="radio" name="Q6" id="RelayForLife" /> Relay For Life<br />
+	<input type="radio" name="Q6" id="NextBigThing" /> Next Big Thing<br />
+	<input type="radio" name="Q6" id="BashAtTheBeach" /> Bash At The Beach<br />
+	
+	<p>
+    <input type = "button" value="Show Results" onClick="Quiz();" />
+    </p>
+	
+	<p>
+    Results
+	<br>
+    <textarea id="results" value="" rows=4 cols=40 wrap="virtual">
+    </textarea>
+
+    </p>
+	</div>
+	</body>
+	
+	<div class = "Social_Links">
+	
+		<p><h4>Links:</h4></p>
+		<table>
+			<tr>
+				<th>
+				<!-- FACEBOOK BUTTON -->
+				<a href= "https://www.facebook.com/pages/My-Onslaught-Starts-Here/120064897723" target = "blank"> 
+				<img src = "Photos/FACEBOOK_LIKE_BUTTON.jpg" width = "75" height = "75"></a>
+				</th>
+				
+				<th>
+				<!-- YOUTUBE BUTTON -->
+				<a href= "https://www.youtube.com/user/MOSHOfficial" target = "blank">
+				<img src = "Photos/YOUTUBE_LIKE_BUTTON.jpg" width = "75" height = "75"></a>
+				</th>
+				
+				<!-- SOUNDCLOUND BUTTON -->
+				<th>
+				<a href = "https://soundcloud.com/krashguitar/sets/m-o-s-h" target = "blank">
+				<img src = "Photos/SOUNDCLOUD_LIKE_BUTTON.jpg" width = "75" height = "75"></a>
+				</th>
+				
+				<th>
+				<!-- REVERBNATION BUTTON -->
+				<a href= "http://www.reverbnation.com/myonslaughtstartshere" target = "blank">
+				<img src = "Photos/REVERBNATION_LIKE_BUTTON.jpg" width = "75" height = "75"></a>
+				</th>
+				
+			</tr>
+		</table>
+		
+	
+		<!-- WEBCOUNTER -->
+		<a href="http://www.hitwebcounter.com/" target="_blank">
+		<img src="http://hitwebcounter.com/counter/counter.php?page=5875897&style=0025&nbdigits=4&type=page&initCount=0"  border="0" >
+		</a><br/> 
+	</div>
+	
+</head>
+</html>

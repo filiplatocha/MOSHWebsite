@@ -1,0 +1,358 @@
+*
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+/* ------------------------------------- HOMEPAGE LAYOUT ------------------------------------- */
+body
+{
+	background: url("Photos/DARK_GREY_1.jpg");
+	background-attachment: fixed;
+	/*background-size: 1080px 980px;*/
+}
+
+.banner
+{
+	background-image: url("Photos/MOSH_LOGO.jpg");
+	background-size:100%;
+	background-position: 0px -55px;
+	width: 844px;
+	height: 430px;
+	padding: 1px;
+	border: 5px solid gray;
+	margin-left: -140px;
+}
+
+.banner:hover
+{
+	background-image: url("Photos/MOSH_2.jpg");
+	background-position: 0px 0px;
+	width: 844px;
+	height: 430px;
+	padding: 1px;
+	border: 5px solid gray;
+	margin-left: -140px;
+}
+
+
+.links, .Social_Links
+{
+	width: 844px;
+	padding: 1px;
+	background: #CACACA;
+	border: 5px solid gray;
+	margin: 10px;
+	margin-left: -140px;
+	text-align: center;
+	font-family: Verdana, Times New Roman;
+}
+
+th
+{
+	font-weight: bold;
+	width: 844px;
+	text-align: center;
+}
+
+.links a:hover
+{
+	color: red;
+}
+
+.about_us_heading, .quiz
+{
+	text-align: left;
+	width: 826px;
+	padding: 10px;
+	background: #CACACA;
+	border: 5px solid gray;
+	margin: 10px;
+	margin-left: -140px;
+	font-family: Verdana, Times New Roman;
+	overflow: auto;
+}
+
+.about_us p
+{
+	font-family: Verdana;
+	font-weight: bold;
+	line-height: 180%;
+}
+
+ .news
+{
+	background: #CACACA;
+	text-align: center;
+	width: 826px;
+	height: 750px;
+	padding: 10px;
+	border: 5px solid gray;
+	margin: 10px;
+	margin-left: -140px;
+	overflow: auto;
+}
+
+.news_article
+{
+	background: #CACACA;
+	text-align: center;
+	padding: 10px;
+	border: 5px solid black;
+	margin: 10px;
+	overflow: auto;
+}
+
+.news_article p
+{
+	text-align: left;
+}
+
+.news img
+{
+	width: 640px; 
+	height: 420px; 
+	background-size:100%;
+	padding: 1px;
+	border: 3px solid black;
+}
+
+.news img:hover
+{
+	opacity: 0.6;
+}
+
+.about_us th
+{
+	font-weight: bold;
+	width: 844px;
+	color: red;
+}
+
+.Social_Links img
+{
+	padding: 1px;
+	border: 1px solid black;
+}
+
+body
+{
+	width: 6in; /* DO NOT TOUCH OR WHOLE PAGE DIES DDDD: */
+}
+
+/* ------------------------------------- MEMBERS PAGE LAYOUT ------------------------------------- */
+
+/*.members_banner
+{
+	background-image: url("Photos/MOSH_LOGO.jpg");
+	background-size: 100%;
+	background-position: 0px -55px;
+	width: 844px;
+	height: 430px;
+	padding: 1px;
+	border: 5px solid gray;
+	margin-left: -148px;
+} */
+
+.members_links, .members, .photos_heading, .videos_heading, .tour_heading, .merchandise, .former_members, .contact
+{
+	width: 844px;
+	padding: 1px;
+	background: #CACACA;
+	border: 5px solid gray;
+	margin: 10px;
+	margin-left: -140px;
+	text-align: center;
+	line-height: 180%;
+	font-family: Verdana, Times New Roman;
+	
+}
+
+.about_us_heading h1, .members p, .tour_heading p, .photos_heading p, .videos_heading p, .former_members p, .merchandise_heading p
+{
+	font-family: Fantasy;
+	font-weight: bold;
+	font-size: 150%;
+	text-align: left;
+	border: 5px solid black;
+	padding: 10px;
+	margin: 20px;
+}
+
+.members img, .former_members img
+/*Picture frames*/
+{	
+	background-position: 0px 0px;
+	width: 260px;
+	height: 360px;
+	padding: 1px;
+	border: 3px solid black;
+}
+
+.members th, .former_members th
+{
+	font-family: Verdana;
+	font-weight: bold;
+	line-height: 50%;
+}
+
+#Alec
+{
+	background-image: url("Photos/MOSH_ALEC.jpg");
+	background-size:100%;
+	background-position: 0px -25px;
+}
+
+#Alec:hover
+{
+	background-image: url("Photos/MOSH_ALEC_3.jpg");
+	background-size:110%;
+	background-position: -20px -10px;
+}
+
+#Filip
+{
+	background-image: url("Photos/MOSH_FILIP.jpg");
+	background-size: 100%;
+	background-position: 0px 0px;
+}
+
+#Filip:hover
+{
+	background-image: url("Photos/MOSH_FILIP_6.jpg");
+	background-size: 195%;
+	background-position: -75px 0px;
+}
+
+#Mark
+{
+	background-image: url("Photos/MOSH_MARK.jpg");
+	background-size: 100%;
+	background-position: 0px 0px;
+}
+
+#Mark:hover
+{
+	background-image: url("Photos/MOSH_MARK_2.jpg");
+	background-size: 230%;
+	background-position: -230px -190px;
+}
+
+#Jim
+{
+	background-image: url("Photos/MOSH_JIM.jpg");
+	background-size: 100%;
+	background-position: 0px 0px;
+}
+
+#Jim:hover
+{
+	background-image: url("Photos/MOSH_JIM_2.jpg");
+	background-size: 200%;
+	background-position: -120px -30px;
+}
+
+#Will
+{
+	background-image: url("Photos/MOSH_WILL.jpg");
+	background-size: 100%;
+	background-position: 0px 0px;
+}
+
+#Will:hover
+{
+	background-image: url("Photos/MOSH_WILL_2.jpg");
+	background-size: 125%;
+	background-position: -40px -60px;
+}
+
+#Chris
+{
+	background-image: url("Photos/MOSH_CHRIS_2.jpg");
+	background-size: 140%;
+	background-position: -60px 0px;
+}
+
+#Chris:hover
+{
+	background-image: url("Photos/MOSH_CHRIS.jpg");
+	background-size: 110%;
+	background-position: -30px 0px;
+}
+
+
+
+/* ------------------------------------- PHOTOS/ VIDEOS PAGE ------------------------------------- */
+
+.photos_heading, .music
+{
+	text-align: left;
+	width: 826px;
+	padding: 10px;
+	background: #CACACA;
+	border: 5px solid gray;
+	margin: 10px;
+	margin-left: -140px;
+	font-family: Verdana, Times New Roman;
+}
+
+.photos_heading p, .music p
+{
+	font-family: Fantasy;
+	font-weight: bold;
+	font-size: 150%;
+	text-align: left;
+	border: 5px solid black;
+	padding: 10px;
+	margin: 20px;
+}
+
+/* ------------------------------------- TOUR PAGE ------------------------------------- */
+
+.tour_heading, .merchandise_heading
+{
+	text-align: left;
+	width: 826px;
+	padding: 10px;
+	background: #CACACA;
+	border: 5px solid gray;
+	margin: 10px;
+	margin-left: -140px;
+	font-family: Verdana, Times New Roman;
+}
+
+
+.tour_dates li, .merchandise_heading li
+{
+	text-align: left;
+}
+
+.contact p
+{
+	font-family: Times new Roman;
+	
+}
+
+/* ------------------------------------- MERCHANDISE PAGE ------------------------------------- */
+
+.merchandise
+{
+	text-align: left;
+	width: 826px;
+	padding: 10px;
+	background: #CACACA;
+	border: 5px solid gray;
+	margin: 10px;
+	margin-left: -140px;
+	font-family: Verdana, Times New Roman;
+}
+
+
+
+
+
+
+
+
+
